@@ -1,0 +1,105 @@
+body 
+	{
+		background-color: lightgrey;
+	}
+	
+h1  {
+		color: black;
+		font-family: consolas;
+		letter-spacing: 0.1em;
+	}
+
+h2  {
+		color: black;
+		font-family: consolas;
+	}
+
+h3  {
+		color: black;
+		font-family: consolas;
+	}
+	
+h4  {
+		color: black;
+		font-family: consolas;
+	}
+
+p   {
+		color: black;
+		font-family: calibri;
+	}
+
+a   {
+		color: black;
+		font-weight: bold;
+	}
+
+span.soften	{
+		color: rgb(237,252,237);
+		font-weight: light;
+	}
+	
+ul	{
+		color: black;
+		font-family: calibri;
+	}
+
+table.menue {
+		font-family: calibri;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+.infobox { 
+		width: 800px;
+		margin-left: 0px;
+		margin-right: auto;
+		padding: 4px;
+		background-color: rgb(237,252,237); 
+		}
+        
+
+table.menue td, th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 8px;
+		}
+
+	tr:nth-child(even) {
+		background-color: #dddddd;	
+		}
+		
+table.show_csv {
+		font-family: calibri;
+		border-collapse: collapse;
+		width: 100%;
+		table-layout: fixed;
+	}
+
+table.show_csv th {
+		width=50%
+		border: 1px solid #dddddd;
+		text-align: left;
+		font-family: consolas;
+		}
+		
+table.show_csv td {
+		width=50%
+		border: 1px solid #dddddd;
+		text-align: left;
+		font-family: calibri;
+		}		
+
+	tr:nth-child(even) {
+		background-color: #dddddd;	
+		}
+		
+table.box td {
+		font-family: calibri;
+		border: 3px solid #dddddd;
+		padding: 8px;
+		vertical-align: top;
+		border-collapse: collapse;
+		background-color: rgb(237,252,237); 
+		
+	}
